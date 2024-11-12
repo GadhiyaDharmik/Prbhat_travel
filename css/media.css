@@ -1,4 +1,4 @@
- @media(max-width:991px){
+  @media(max-width:991px){
 
  }
  @media(max-width: 575px){
@@ -31,5 +31,11 @@
 .HolidayPackages .CardBox {
     margin-bottom: 9;
     margin-top: 30px;
+}
+.Header a:hover:before {
+    width: 45%;
+    left: 0;
+    margin: 0;
+    width: 100%;
 }
  }
