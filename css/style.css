@@ -96,6 +96,7 @@ button:focus:not(:focus-visible) {outline: 0; box-shadow: 0 0 0; outline: none; 
     object-fit: cover;
     background-repeat: no-repeat;
     background-position: center center;
+    background-size: cover;
 }
 
 #footer:before {
@@ -344,3 +345,77 @@ button:focus:not(:focus-visible) {outline: 0; box-shadow: 0 0 0; outline: none; 
     font-size: 20px;
     margin-top: 15px;
 }
+
+
+.AboutUsScreen .SubTitle {
+    font-weight: 600!important;
+    font-size: 27px;
+    color: #b38600;
+    margin-bottom: 10px !important;
+}
+
+
+
+.SubBanner{
+    position: relative;
+    background:url('../img/1.jpg');
+    height:350px;
+    width:100%;
+    background-size:cover;
+    background-position:center center;
+
+}
+.SubBanner:before{
+ content: ""; position: absolute; left: 0; top: 0; height: 100%; width: 100%; background: #11111178; z-index: 11;}
+
+.SubBanner .Content {
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    color: #fff;
+    z-index: 11;
+    transform: translate(-50%,-50%);
+    margin: 0;
+    text-align:center;
+}
+.SubBanner a{color: #fff;}
+.SubBanner p{font-size:16px;color:#fff;}
+
+ .AboutUsScreen .Content li {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: #333333;
+    font-weight: 500;
+    line-height: 32px;
+    font-size: 18px;
+}
+
+.AboutUsScreen .Content li span {
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 0;
+    display:  inline-block;
+    color: #000000;
+}
+
+.AboutUsScreen .Content li .Check {
+    height: 21px;
+    position: relative;
+    top: -1px;
+}
+.AboutUsScreen .Content li {
+
+    box-shadow: 1px 1px 10px rgb(0 0 0 / 15%);
+    padding: 20px;
+    border-radius: 20px;
+
+}
+
+
+
+.Gallery .CardBox{box-shadow: 1px 1px 10px rgb(0 0 0 / 15%);padding: 15px;background: #ffffff;border-radius: 7px;height: 100%;}
+.Gallery .CardBox img{height: 100%;}
+
+
+
+.ComingSoon{height:600px; object-fit:contain;}
