@@ -1,0 +1,8 @@
+ @media(max-width:991px){
+
+ }
+ @media(max-width: 575px){
+ 	.Slider .carousel-item img {
+    height: 400px;
+}
+ }
